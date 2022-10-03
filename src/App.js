@@ -4,7 +4,7 @@ import { Routes, Route, Link } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <Routes basename={process.env.PUBLIC_URL}>
+      <Routes>
         <Route path="/" element={<div>Default</div>}></Route>
         <Route path="/App" element={<div>Enter APP</div>}></Route>
       </Routes>
